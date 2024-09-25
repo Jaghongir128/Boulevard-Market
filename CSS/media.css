@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .card {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .main__card {
+        padding: 15px 47px;
+    }
+
+    .product1 {
+        display: block;
+    }
+
+    .product1__desc {
+        margin-bottom: 30px;
+    }
+    .product2 {
+        display: block;
+    }
+
+    .product2__desc {
+        margin-top: 30px;
+    }
+    .product3 {
+        display: block;
+    }
+
+    .product3__img {
+        margin-bottom: 30px;
+    }
+
+    .product3__desc {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
